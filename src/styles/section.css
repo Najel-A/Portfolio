@@ -1,0 +1,26 @@
+/* General section styling */
+.section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px; /* Add padding for smaller screens */
+    font-family: "Arial", sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Adjust styles for different screen sizes */
+  @media screen and (max-width: 768px) {
+    .section {
+      padding: 0 15px; /* Adjust padding */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .section {
+      padding: 0 10px; /* Adjust padding for very small screens */
+    }
+  }
+  
