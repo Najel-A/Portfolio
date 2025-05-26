@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/home.css"; // Import CSS file
-import profileImage from "../assets/Profile_Temp.png"; // Import image
+import profileImage from "../assets/about_me.png"; // Import image
 
 import { useState, useEffect } from 'react';
 
@@ -8,9 +8,10 @@ const Home = () => {
     // Add Phrases here
     const phrases = [
       "I_like_to_code.py",
-      "Software Engineer",
-      "I love Vinny Yip",
-      "Always Learning"
+      "404: Limits_not_found",
+      "Full-Stack_Engineer.js",
+      "cd /your/team && npm install me",
+      "Fitness_Enthusiast"
     ];
   
     const [typedText, setTypedText] = useState("");
@@ -60,7 +61,6 @@ const Home = () => {
     }, [textIndex, isDeleting, currentPhraseIndex, phrases]);
   
     useEffect(() => {
-      // If we are deleting and the phrase is cleared, make sure typing starts immediately
       if (textIndex === 0 && isDeleting) {
         setTypedText("");  // Explicitly set empty string for consistency
       }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/about.css";
+import profileImage from "../assets/home.png"; // Import image
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
         {/* Image Container */}
         <div className="about__image-container">
           <img
-            src="/path-to-your-image.jpg"
+            src={profileImage}
             alt="Portrait of Me"
             className="about__image"
           />
@@ -21,17 +22,22 @@ const About = () => {
         {/* Text Container */}
         <div className="about__text-container">
           <p className="about__text">
-            Hello! I’m a software engineer based in the Bay Area, California. I
+            Hello! I'm a software engineer based in the Bay Area, California. I
             earned my Bachelor of Science in Computer Engineering with a minor
             in Computer Science from the University of California, Santa Cruz.
-            Currently, I’m pursuing a Master of Science in Data Analytics with
-            a specialization in Data Engineering at San Jose State University.
+            Currently, I am pursuing a Master of Science in Applied Data Intelligence
+            at San Jose State University.
           </p>
           <p className="about__text">
-            My professional interests focus on AI/ML roles as well as backend
-            roles within software engineering. In my free time, I enjoy
-            snowboarding in the winter, hiking during summer, and working on
-            personal web development projects.
+            I'm passionate about building robust, scalable systems—whether it's on the backend, 
+            across the full stack, or within data infrastructure. I'm especially interested in 
+            roles that involve backend development, data engineering, or AI/ML, and my current 
+            master's program in Applied Data Intelligence has given me 
+            hands-on experience with many of these topics.
+          </p>
+          <p className="about__text">
+            Outside of work, I enjoy snowboarding 
+            in the winter, lifting weights, and going to music festivals!
           </p>
         </div>
       </div>

@@ -2,8 +2,10 @@ import React from "react";
 import "../styles/skills.css";
 
 const Skills = () => {
-  const technicalSkills = ["React", "JavaScript", "Python", "C++", "Django", "Firebase"];
-  const personalSkills = ["Problem-Solving", "Teamwork", "Communication", "Time Management"];
+  const technicalSkills = ["React.js", "JavaScript", "Python", "C++", 
+    "SQL", "MongoDB", "Node.js", "Express.js", "AWS", "Git", "Docker", "Kubernetes"];
+  const personalSkills = ["Problem-Solving", "Teamwork", "Communication",
+     "Time Management", "Adaptability", "Project Management", "Critical Thinking"];;
 
   return (
     <section id="skills" className="skills">
