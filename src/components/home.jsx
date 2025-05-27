@@ -84,7 +84,7 @@ const Home = () => {
           {/* <a href="#experience" className="home__nav-link">Experience</a> */}
           <a href="#skills" className="home__nav-link">Skills</a>
           <a href="#projects" className="home__nav-link">Projects</a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="home__nav-link">
+          <a href={`${import.meta.env.BASE_URL}resume.pdf`} target="_blank" rel="noopener noreferrer" className="home__nav-link">
             Resume
           </a>
 
